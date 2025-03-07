@@ -80,7 +80,8 @@ main{
     display: none;
 }
 
-.modal-inner{
+.modal-inner,
+form{
     width: 290px;
     margin: 0 auto;
 }
@@ -154,3 +155,4 @@ input{
     line-height: 23px;
     margin-bottom: 0;
 }
+
