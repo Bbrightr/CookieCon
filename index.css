@@ -122,6 +122,17 @@ form{
     padding: 8px 16px;
     display: flex;
     justify-content: center;
+    gap: 10px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+#declinebtn {
+    background-color: #212529;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
 }
 
 .modal-btn{

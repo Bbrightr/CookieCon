@@ -3,6 +3,8 @@ const modalCloseBtn = document.getElementById("modal-close-btn")
 const consentForm = document.getElementById("consent-form")
 const modalText = document.getElementById("modal-text")
 const modalInner = document.getElementById("modal-inner")
+const switchBtns = document.getElementById("modal-choice-btns")
+const declineBtn = document.getElementById("declinebtn")
 
 setTimeout(function(){
     modal.style.display = 'inline'
@@ -39,9 +41,14 @@ consentForm.addEventListener('submit', function(e){
         </div>
     ` 
     modalCloseBtn.disabled = false
-    
+
     }, 3000)
 
     
 
+})
+
+declineBtn.addEventListener('mouseover',function(){
+    // console.log("here")
+    switchBtns.classList.toggle('reverse')
 })
