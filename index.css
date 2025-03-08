@@ -127,6 +127,8 @@ form{
 .modal-btn{
     padding: 10px 24px;
     cursor: pointer;
+    /* width: 49%;
+    margin-top: 10px; */
 }
 
 /* modal input */
